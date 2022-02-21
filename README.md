@@ -13,3 +13,14 @@ https://illing2005.github.io/rock-paper-scissors
 - Players can save the game at any time
 - Players can load the previous game.
 
+### Local Development:
+
+Install dependencies:
+```shell script
+yarn install
+```
+
+Start development server:
+``` 
+yarn start
+```
