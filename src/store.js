@@ -42,7 +42,7 @@ const evaluateRound = (choiceOne, choiceTwo) => {
     return 0; // same choice -> it's a draw
   }
   if (choiceOne === ROCK && choiceTwo === SCISSORS) {
-    return 2; // player two wins
+    return 1; // player one wins
   }
   if (choiceOne === ROCK && choiceTwo === PAPER) {
     return 2; // player one wins
